@@ -1,4 +1,4 @@
-const apiUrl = process.env.BACKEND_URL || 'http://localhost:5000/'
+const apiUrl = 'spell-test-backend-production.up.railway.app/'
 
 export async function fetchWords(token) {
   try {

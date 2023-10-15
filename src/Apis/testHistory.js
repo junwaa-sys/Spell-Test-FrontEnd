@@ -1,8 +1,9 @@
-const apiUrl = process.env.BACKEND_URL || 'http://localhost:5000/'
+const apiUrl = 'spell-test-backend-production.up.railway.app/'
 
 export async function getTestHistory(token) {
   try {
     //fetch history list
+    console.log(process.env.REACT_APP_BACKEND_URL)
     const response = await fetch(`${apiUrl}api/test/history/get`, {
       method: 'GET',
       headers: {
