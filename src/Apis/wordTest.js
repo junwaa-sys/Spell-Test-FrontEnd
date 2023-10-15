@@ -1,4 +1,4 @@
-const apiUrl = 'spell-test-backend-production.up.railway.app/'
+const apiUrl = 'https://spell-test-backend-production.up.railway.app/'
 
 export async function fetchTestSetting(token) {
   try {
