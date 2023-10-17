@@ -37,6 +37,8 @@ function AppLayout() {
       setPages(pagesLoggedIn)
       setSettings(settingsLoggedIn)
     }
+
+    // eslint-disable-next-line
   }, [isAuthenticated])
 
   const handleOpenNavMenu = (event) => {
